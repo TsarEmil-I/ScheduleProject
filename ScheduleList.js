@@ -4,11 +4,11 @@ import {FlatList} from 'react-native';
 
 class ScheduleList extends Component {
     state = {
-        events: []
+        schedule: []
     }
 
     componentDidMount() {
-        const events = require('./data.json').events;
+        const events = require('./data.json').schedule;
         this.setState( {events} );
     }
     render() {
