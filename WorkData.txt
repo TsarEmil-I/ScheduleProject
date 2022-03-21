@@ -1,4 +1,4 @@
-Александър, № 1 - created data.json, created ScheduleList.js, modified App.js;	
+Александър, № 1 - created data.json, created ScheduleList.js, modified App.js, style idea;	
 
 Емил, № 14 - Modified ScheduleList.js, modified App.js, added style to the 
 FlatList (color, borders, borderStyle, margins, padding), changed
