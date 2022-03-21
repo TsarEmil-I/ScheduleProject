@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
 import {Text} from 'react-native';
 import {FlatList} from 'react-native';
+import {StyleSheet} from 'react-native';
+import ScheduleStyle from './ScheduleStyle';
 
 class ScheduleList extends Component {
     state = {
@@ -15,7 +17,7 @@ class ScheduleList extends Component {
         return (
             <FlatList
             data = { this.state.events }
-            renderItem = { ({item}) => <Text>{item.title} {item.teacher} {item.time}</Text>}
+            renderItem = { ({item}) => <ScheduleStyle scheduleStyle = {item}/>}
             ></FlatList>
         );
     };
